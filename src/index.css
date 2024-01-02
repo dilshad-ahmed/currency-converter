@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-button {
+    @apply bg-secondary border-2 border-secondary text-white px-4 py-2 hover:bg-secondary/80 duration-200;
+  }
+  .outline-button {
+    @apply border-2 border-white text-white px-4 py-2;
+  }
+  .brand-gradient {
+    @apply bg-gradient-to-r from-brandDark to-primary;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
