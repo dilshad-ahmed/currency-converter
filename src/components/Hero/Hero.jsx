@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from "../assets/web3.png";
+import HeroImg from "../../assets/web3.png";
 
 const Hero = () => {
   return (
@@ -9,14 +9,25 @@ const Hero = () => {
           {/* text-content-section */}
           <div className="flex flex-col justify-center gap-4 mt-36 sm:mt-0">
             <h1 className="text-3xl sm:text-4xl md:text-6xl text-white font-semibold">
-              Explore The Largest NFT Marketplace
+              Transforming Currencies with Precision and Ease
             </h1>
             <p className="text-gray-400">
-              Buy, Sell & Trade Cryptocurrency Easily and Securely.
+              Effortlessly navigate the world of cryptocurrencies and fiat
+              currencies with our cutting-edge currency converter, providing
+              instant and accurate conversions to help you make informed
+              financial decisions.
             </p>
             <div className="space-y-2 space-x-4">
-              <button className="primary-button">Connect Wallet</button>
-              <button className="outline-button">Learn More</button>
+              <a className="primary-button" href="#currency-converter">
+                Currency Converter
+              </a>
+              <a
+                className="outline-button"
+                href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ"
+                target="_blank"
+              >
+                Learn More
+              </a>
             </div>
           </div>
           {/* image-section */}

@@ -27,6 +27,7 @@ const ServicesData = [
 const Services = () => {
   return (
     <div className="bg-brandDark text-white">
+      <span id="services"></span>
       <div className="container py-14">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {ServicesData.map(({ icon, title, description }) => (

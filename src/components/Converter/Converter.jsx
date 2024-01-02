@@ -9,9 +9,9 @@ const Converter = () => {
       <div className="container">
         {/* Header Title */}
         <HeaderTitle
-          title={"Realtime Currency Converter"}
+          title={"Real-Time Currency Converter"}
           subtitle={
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates vel odio esse facilis, aperiam ipsum aut porro. Suscipit, amet accusantium!"
+            "Real-Time Currency Converter for Instant Global Exchange Rates"
           }
         />
 

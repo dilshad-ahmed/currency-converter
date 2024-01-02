@@ -15,10 +15,9 @@ const CustomerSupport = () => {
               Get Customer Support 24*7
             </h1>
             <p className="text-gray-400 line-clamp-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
-              exercitationem nobis veniam esse labore. Quibusdam quasi numquam
-              cupiditate suscipit dignissimos repellendus possimus quos. Ab
-              distinctio debitis numquam odit repudiandae fugit.
+              Accessible Anytime, Anywhere! Our dedicated 24/7 customer support
+              ensures assistance around the clock, providing peace of mind for
+              all your inquiries and needs
             </p>
           </div>
         </div>

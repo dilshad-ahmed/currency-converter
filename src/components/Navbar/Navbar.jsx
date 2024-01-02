@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/crypto-logo.png";
+import Logo from "../../assets/crypto-logo.png";
 
 const Links = [
   {
@@ -9,18 +9,18 @@ const Links = [
   },
   {
     id: 1,
+    name: "Services",
+    link: "/#services",
+  },
+  {
+    id: 1,
     name: "Currency Converter",
     link: "/#currency-converter",
   },
   {
     id: 1,
-    name: "Shop",
-    link: "/#",
-  },
-  {
-    id: 1,
     name: "About Us",
-    link: "/#",
+    link: "https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ",
   },
 ];
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="container">
         <div className="flex justify-between items-center">
           <div>
-            <img src={Logo} alt="logo" className="w-20" />
+            <img src={Logo} alt="logo" className="w-14 sm:w-16 py-2" />
           </div>
           <div>
             <ul className="hidden sm:flex gap-8">
@@ -43,7 +43,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <button className="primary-button">Explore Now</button>
+            <a href="/#currency-converter" className="primary-button">
+              Currency Converter
+            </a>
           </div>
         </div>
       </div>
